@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    /* background: rgb(245, 243, 243); */
+    background: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: 64px;
+    margin-right: 4px;
+    filter: invert(75%);
+}

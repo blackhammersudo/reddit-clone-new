@@ -1,0 +1,18 @@
+.leftnavlink ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.leftnavlink ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid black; */
+    padding: 2px 2px;
+    margin: 2px 2px;
+    
+}
+.leftnavlink ul li{
+    padding: 2px 2px;
+    margin: 20px 60px;
+}
