@@ -11,19 +11,19 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-//       <Navbar />
-      <Body/>
+      <Navbar />
+//       <Body/>
       {/* <Loginpage /> */}
       {/* <Registation /> */}
       {/* <Createpost /> */}
-//       <BrowserRouter>
-//         <Routes>
-//           <Route path='/redditpro' element={<Body />} />
-//           <Route path='/redditpro/Login' element={<Loginpage />} />
-//           <Route path='/redditpro/Registation' element={<Registation />} />
-//           <Route path='/redditpro/Createpost' element={<Createpost />} />
-//         </Routes>
-//       </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/redditpro' element={<Body />} />
+          <Route path='/redditpro/Login' element={<Loginpage />} />
+          <Route path='/redditpro/Registation' element={<Registation />} />
+          <Route path='/redditpro/Createpost' element={<Createpost />} />
+        </Routes>
+      </BrowserRouter>
       <Fotterb />
     </>
 
