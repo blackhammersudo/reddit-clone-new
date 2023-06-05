@@ -12,18 +12,18 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Body/> */}
+      {<Body/>}
       {/* <Loginpage /> */}
       {/* <Registation /> */}
       {/* <Createpost /> */}
-      <BrowserRouter>
-        <Routes>
-          <Route path='/redditpro' element={<Body />} />
-          <Route path='/redditpro/Login' element={<Loginpage />} />
-          <Route path='/redditpro/Registation' element={<Registation />} />
-          <Route path='/redditpro/Createpost' element={<Createpost />} />
-        </Routes>
-      </BrowserRouter>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path='/redditpro' element={<Body />} />
+//           <Route path='/redditpro/Login' element={<Loginpage />} />
+//           <Route path='/redditpro/Registation' element={<Registation />} />
+//           <Route path='/redditpro/Createpost' element={<Createpost />} />
+//         </Routes>
+//       </BrowserRouter>
       <Fotterb />
     </>
 
