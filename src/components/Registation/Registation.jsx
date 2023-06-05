@@ -16,6 +16,14 @@ function getdata(e){
   localStorage.setItem("userdata",JSON.stringify(input))
 
 }
+function resetHandel(){
+  setinput({
+    name:"",
+    email:"",
+    password:"",
+    Phone:"",
+  })
+}
   // console.log(name);
   // getdata
 
@@ -82,6 +90,9 @@ function getdata(e){
           {/* have a accoutn */}
           <p >Already have a account. Login</p>
         </Form>
+        <Button onClick={resetHandel} variant="primary" type="submit">
+            Reset
+          </Button>
     </div>
   );
   }
