@@ -16,9 +16,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Body />} />
-          <Route path='/Login' element={<Loginpage />} />
-          <Route path='/Registation' element={<Registation />} />
-          <Route path='/Createpost' element={<Createpost />} />
+          <Route path='/redditpro/Login' element={<Loginpage />} />
+          <Route path='/redditpro/Registation' element={<Registation />} />
+          <Route path='/redditpro/Createpost' element={<Createpost />} />
         </Routes>
       </BrowserRouter>
       <Fotterb />
