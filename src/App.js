@@ -15,7 +15,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Body />} />
+          <Route path='/redditpro' element={<Body />} />
           <Route path='/redditpro/Login' element={<Loginpage />} />
           <Route path='/redditpro/Registation' element={<Registation />} />
           <Route path='/redditpro/Createpost' element={<Createpost />} />
